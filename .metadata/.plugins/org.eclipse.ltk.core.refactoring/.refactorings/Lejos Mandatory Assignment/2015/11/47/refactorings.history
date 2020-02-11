@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Movement.java&apos; to &apos;Movements.java&apos;&#x0D;&#x0A;- Original project: &apos;Lejos Mandatory Assignment&apos;&#x0D;&#x0A;- Original element: &apos;Movement.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Movements.java&apos;" description="Rename compilation unit &apos;Movement.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Movement.java" name="Movements.java" references="false" stamp="1447756436409" version="1.0"/>
+</session>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="192" key="DIALOG_X_ORIGIN"/>
+		<item value="125" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="747" key="dialogHeight"/>
+		<item value="1440" key="dialogWidth"/>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="3"/>
+			<item value="3"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="2"/>
+		</list>
+		<list key="orderedElements">
+			<item value="org.eclipse.ui.navigator.ProjectExplorer"/>
+			<item value="org.eclipse.egit.ui.StagingView"/>
+			<item value="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+			<item value="org.eclipse.ui.views.ProgressView"/>
+			<item value="org.eclipse.ui.console.ConsoleView"/>
+			<item value="org.eclipse.debug.ui.DebugView"/>
+			<item value="org.eclipse.ui.views.TaskList"/>
+			<item value="org.eclipse.jdt.ui.preferences.CodeStylePreferencePage"/>
+			<item value="org.eclipse.ui.window.preferences(preferencePageId=org.eclipse.jdt.ui.preferences.ImportOrganizePreferencePage)"/>
+			<item value="org.eclipse.ui.views.ContentOutline"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.perspectives"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.ui.commands"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+		</list>
+		<list key="textArray">
+			<item value="project"/>
+			<item value="git"/>
+			<item value="team"/>
+			<item value="prog"/>
+			<item value="progress"/>
+			<item value="progre"/>
+			<item value="co"/>
+			<item value="con"/>
+			<item value="console"/>
+			<item value="debug"/>
+			<item value="tasks"/>
+			<item value="code"/>
+			<item value="code st"/>
+			<item value="outline"/>
+			<item value="outlin"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.sirius.category"/>
+		</list>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item value="1938" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="1048" key="DIALOG_HEIGHT"/>
+		<item value="-629" key="DIALOG_X_ORIGIN"/>
+		<item value="-202" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.equinox.p2.category"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Naxxo\Desktop\client.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\graphadt.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\naxxo.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\ADSHANDIN.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\Backtracking.zip"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="392" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="org.eclipse.team.ui.GenericHistoryView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="479" key="DIALOG_HEIGHT"/>
+		<item value="773" key="DIALOG_X_ORIGIN"/>
+		<item value="205" key="DIALOG_Y_ORIGIN"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.team.ui"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="\\ATANASLATINOVPC\Users\Naxxo\workspace\Java book\src\javaBookExercises"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Naxxo\Desktop\client.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\Bakery.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\AJP.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\Hotel.zip"/>
+			<item value="C:\Users\Naxxo\Desktop\Backtracking.zip"/>
+		</list>
+	</section>
+</section>

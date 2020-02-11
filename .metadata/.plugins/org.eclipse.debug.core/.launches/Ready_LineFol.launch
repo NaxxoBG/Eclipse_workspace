@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.lejos.nxt.ldt.LaunchType">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Line Follower NXJ/src/Ready_LineFol.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Ready_LineFol"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Line Follower NXJ"/>
+</launchConfiguration>

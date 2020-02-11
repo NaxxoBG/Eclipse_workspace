@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;MyDate&apos; to &apos;MyDate2&apos;&#x0D;&#x0A;- Original project: &apos;Exercise 11_01&apos;&#x0D;&#x0A;- Original element: &apos;MyDate&apos;&#x0D;&#x0A;- Renamed element: &apos;MyDate2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyDate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{MyDate.java[MyDate" matchStrategy="1" name="MyDate2" qualified="false" references="true" similarDeclarations="false" stamp="1442821160432" textual="false" version="1.0"/>
+</session>

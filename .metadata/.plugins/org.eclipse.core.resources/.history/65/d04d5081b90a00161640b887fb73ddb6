@@ -1,0 +1,47 @@
+package Client;
+
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Scanner;
+
+
+import SharedInterface.SharedInterface;
+
+public class ClientModel
+{
+   private ArrayList<Object> availableRooms;
+   private ArrayList<Object> bookedRooms;
+   private SharedInterface<Object> inter;
+   private Scanner scanner;   
+   
+   @SuppressWarnings("unchecked")
+   public ClientModel() throws RemoteException, MalformedURLException, NotBoundException{
+      String name = "//10.52.224.176/Server";
+      inter = (SharedInterface<Object>) Naming.lookup(name);
+      scanner = new Scanner(System.in);
+   }
+   
+   public void updateAvailable(Date startDate, Date endDate) throws RemoteException {
+      availableRooms = inter.getAvailableRooms(startDate, endDate);
+   }
+   
+   public void updateBooked(Date startDate, Date endDate) throws RemoteException {
+      bookedRooms= inter.getBookedRooms(startDate, endDate);
+   }
+   
+   public ArrayList<Object> getAvailableRooms() {
+      return availableRooms;
+   }
+   
+   public ArrayList<Object> getBookedRooms() {
+      return bookedRooms;
+   }
+
+   public String stringInput(){
+      return scanner.nextLine();
+   }
+}

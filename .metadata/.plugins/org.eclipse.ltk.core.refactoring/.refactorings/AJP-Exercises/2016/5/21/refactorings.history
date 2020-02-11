@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;QueueAsCircularArray.java&apos; to &apos;SDJ2-Collections/src/Queue&apos;&#x0D;&#x0A;- Original project: &apos;AJP-Exercises&apos;&#x0D;&#x0A;- Destination element: &apos;SDJ2-Collections/src/Queue&apos;&#x0D;&#x0A;- Original element: &apos;boundedbuffer.QueueAsCircularArray.java&apos;" description="Copy compilation unit" destination="=SDJ2-Collections/src&lt;Queue" element1="/AJP&lt;boundedbuffer{QueueAsCircularArray.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1463315560593" units="1" version="1.0"/>
+</session>

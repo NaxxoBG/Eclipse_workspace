@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Adapter.HoverCarAdaper&apos; to &apos;HoverCarAdapter&apos;&#x0D;&#x0A;- Original project: &apos;SDJ2-Patterns&apos;&#x0D;&#x0A;- Original element: &apos;Adapter.HoverCarAdaper&apos;&#x0D;&#x0A;- Renamed element: &apos;Adapter.HoverCarAdapter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HoverCarAdaper&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Adapter{HoverCarAdaper.java[HoverCarAdaper" matchStrategy="1" name="HoverCarAdapter" qualified="false" references="true" similarDeclarations="false" stamp="1456904881051" textual="false" version="1.0"/>
+</session>

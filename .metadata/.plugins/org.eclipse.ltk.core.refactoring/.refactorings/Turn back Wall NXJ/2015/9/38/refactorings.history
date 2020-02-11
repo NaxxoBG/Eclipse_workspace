@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Trun_back_wall&apos; to &apos;Turn_back_wall&apos;&#x0D;&#x0A;- Original project: &apos;Turn back Wall NXJ&apos;&#x0D;&#x0A;- Original element: &apos;Trun_back_wall&apos;&#x0D;&#x0A;- Renamed element: &apos;Turn_back_wall&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Trun_back_wall&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Trun_back_wall.java[Trun_back_wall" matchStrategy="1" name="Turn_back_wall" qualified="false" references="true" similarDeclarations="false" stamp="1442315076119" textual="false" version="1.0"/>
+</session>

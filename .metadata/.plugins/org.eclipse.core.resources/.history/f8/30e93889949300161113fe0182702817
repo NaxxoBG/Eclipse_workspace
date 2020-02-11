@@ -1,0 +1,170 @@
+package HitBalancedTree;
+
+public class HitBalancedTree implements HbTree
+{
+   private Node root;
+   private int size;
+
+   public HitBalancedTree() {
+      super();
+      root = null;
+      size = 0;
+   }
+
+   public HitBalancedTree(int key) {
+      this.setRoot(new Node(key));
+      size = 1;
+   }
+
+   public HitBalancedTree(Node root) {
+      this.root = root;
+      size = 1;
+   }
+
+   public void add(int value) {
+      this.root = add(value, root);
+      this.incSize();
+   }
+
+   private Node add(int value, Node node) {
+      if (node == null) {
+         node = new Node(value);
+      }
+      else {
+         if (value < node.getKey()) {
+            node.setLeft(add(value, node.getLeft()));
+         }
+         else if (value > node.getKey()) {
+            node.setRight(add(value, node.getRight()));
+         }
+      }
+      return node;
+   }
+
+   public void remove(int key) {
+      root = remove(root, key);
+   }
+
+   private Node remove(Node node, int key) {
+      if (node == null) {
+         return null;
+      }
+      else if (key < node.getKey()) {
+         node.setLeft(remove(node.getLeft(), key));
+      }
+      else if (key > node.getKey()) {
+         node.setRight(remove(node.getRight(), key));
+      }
+      else {
+         if (node.getLeft() == null) {
+            return node.getRight();
+         }
+         else if (node.getRight() == null) {
+            return node.getLeft();
+         }
+         else {
+            node.setKey(lsTreeData.apply(node.getLeft()));
+            node.setLeft(remove(node.getLeft(), node.getKey()));
+         }
+      }
+      return node;
+   }
+
+   public boolean contains(int key) {
+      return this.find(key) != null;
+   }
+
+   public Node find(int key) {
+      Node node = this.getRoot();
+      while (node != null) {
+         if (key < node.getKey()) {
+            node = node.getLeft();
+         } else if (key > node.getKey()) {
+            node = node.getRight();
+         } else {
+            break;
+         }
+      }
+      return node;
+   }
+
+   public int findMin() {
+      return this.findMin(this.root);
+   }
+
+   private int findMin(Node node) {
+      if (node.getLeft() == null) {
+         return node.getKey();
+      }
+      return findMin(node.getLeft());
+   }
+
+   public int findMax() {
+      return this.findMax(this.root);
+   }
+
+   private int findMax(Node node) {
+      if (node != null) {
+         while (node.getRight() != null) {
+            node = node.getRight();
+         }
+      }
+      return node.getKey();
+   }
+
+   public int height() {
+      return height(this.root);
+   }
+
+   private int height(Node node) {
+      if (node == null) {
+         return -1;
+      } else {
+         return 1 + Math.max(height(node.getLeft()), height(node.getRight()));
+      }
+   }
+
+   public void printPreOrder() {
+      printPreOrder(this.root);
+   }
+
+   private void printPreOrder(Node node) {
+      System.out.print(node.getKey() + " ");
+      if (node.getLeft() != null) {
+         printPreOrder(node.getLeft());
+      }
+      if (node.getRight() != null) {
+         printPreOrder(node.getRight());
+      }
+   }
+
+   public int size() {
+      return size;
+   }
+
+   public Node getRoot() {
+      return this.root;
+   }
+
+   public void setRoot(Node node) {
+      this.setRoot(node);
+   }
+
+   private void incSize() {
+      this.size++;
+   }
+
+   public void printInOrder() {
+      this.inorderHelper(this.root);
+   }
+
+   private void inorderHelper(Node node) {
+      if (node == null) {
+         return;
+      }
+
+      inorderHelper(node.getLeft());
+      System.out.print(node.getKey() + " ");
+      inorderHelper(node.getRight());
+   }
+}

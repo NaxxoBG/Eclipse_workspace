@@ -1,0 +1,53 @@
+package tier_1;
+
+import java.net.MalformedURLException;
+import java.rmi.Naming;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+import java.sql.SQLException;
+
+import tier_2.BankServer;
+import tier_3.Account;
+import tier_3.BankDatabase;
+import tier_3.IBankDatabase;
+
+public class Customer
+{
+   private String name;
+   private int accNo;
+   private IRemoteCustomer shared;
+   private Account acc;
+   
+   public Customer(String name, int accNo) throws MalformedURLException, RemoteException, NotBoundException, SQLException {
+      this.name = name;
+      this.accNo = accNo;
+
+      try {
+         shared = (IRemoteCustomer) Naming.lookup(BankServer.SERVER_NAME);
+      } catch (java.rmi.ConnectException e) {
+         System.out.println("Could not connect to object!\n" + e.getMessage());
+      }
+      
+      acc = shared.geta
+   }
+
+   public void withdrawMoneyCustomer(double amount) throws RemoteException, SQLException {
+      database.updateBalanceWithdrawDB(acc, amount);
+   }
+   
+   public String getName() {
+      return name;
+   }
+
+   public IRemoteCustomer getShared() {
+      return shared;
+   }
+   
+   public IBankDatabase getDatabase() {
+      return database;
+   }
+
+   public int getAccNo() {
+      return accNo;
+   }
+}

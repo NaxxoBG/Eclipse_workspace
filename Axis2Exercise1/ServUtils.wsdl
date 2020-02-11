@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://naxxo" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" targetNamespace="http://naxxo">
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://naxxo">
+            <xs:element name="reverse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="reverseResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="isLeapYear">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="args0" type="xs:int"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="isLeapYearResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="return" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="averageOfTwo">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="args0" type="xs:double"/>
+                        <xs:element name="args1" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="averageOfTwoResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="return" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="averageOfThree">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="args0" type="xs:double"/>
+                        <xs:element name="args1" type="xs:double"/>
+                        <xs:element name="args2" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="averageOfThreeResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="return" type="xs:double"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="averageOfThreeRequest">
+        <wsdl:part name="parameters" element="ns:averageOfThree"/>
+    </wsdl:message>
+    <wsdl:message name="averageOfThreeResponse">
+        <wsdl:part name="parameters" element="ns:averageOfThreeResponse"/>
+    </wsdl:message>
+    <wsdl:message name="isLeapYearRequest">
+        <wsdl:part name="parameters" element="ns:isLeapYear"/>
+    </wsdl:message>
+    <wsdl:message name="isLeapYearResponse">
+        <wsdl:part name="parameters" element="ns:isLeapYearResponse"/>
+    </wsdl:message>
+    <wsdl:message name="averageOfTwoRequest">
+        <wsdl:part name="parameters" element="ns:averageOfTwo"/>
+    </wsdl:message>
+    <wsdl:message name="averageOfTwoResponse">
+        <wsdl:part name="parameters" element="ns:averageOfTwoResponse"/>
+    </wsdl:message>
+    <wsdl:message name="reverseRequest">
+        <wsdl:part name="parameters" element="ns:reverse"/>
+    </wsdl:message>
+    <wsdl:message name="reverseResponse">
+        <wsdl:part name="parameters" element="ns:reverseResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="ServUtilsPortType">
+        <wsdl:operation name="averageOfThree">
+            <wsdl:input message="ns:averageOfThreeRequest" wsaw:Action="urn:averageOfThree"/>
+            <wsdl:output message="ns:averageOfThreeResponse" wsaw:Action="urn:averageOfThreeResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="isLeapYear">
+            <wsdl:input message="ns:isLeapYearRequest" wsaw:Action="urn:isLeapYear"/>
+            <wsdl:output message="ns:isLeapYearResponse" wsaw:Action="urn:isLeapYearResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="averageOfTwo">
+            <wsdl:input message="ns:averageOfTwoRequest" wsaw:Action="urn:averageOfTwo"/>
+            <wsdl:output message="ns:averageOfTwoResponse" wsaw:Action="urn:averageOfTwoResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="reverse">
+            <wsdl:input message="ns:reverseRequest" wsaw:Action="urn:reverse"/>
+            <wsdl:output message="ns:reverseResponse" wsaw:Action="urn:reverseResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="ServUtilsSoap11Binding" type="ns:ServUtilsPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="averageOfThree">
+            <soap:operation soapAction="urn:averageOfThree" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="isLeapYear">
+            <soap:operation soapAction="urn:isLeapYear" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="averageOfTwo">
+            <soap:operation soapAction="urn:averageOfTwo" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="reverse">
+            <soap:operation soapAction="urn:reverse" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="ServUtilsSoap12Binding" type="ns:ServUtilsPortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="averageOfThree">
+            <soap12:operation soapAction="urn:averageOfThree" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="isLeapYear">
+            <soap12:operation soapAction="urn:isLeapYear" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="averageOfTwo">
+            <soap12:operation soapAction="urn:averageOfTwo" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="reverse">
+            <soap12:operation soapAction="urn:reverse" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="ServUtilsHttpBinding" type="ns:ServUtilsPortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="averageOfThree">
+            <http:operation location="averageOfThree"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="isLeapYear">
+            <http:operation location="isLeapYear"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="averageOfTwo">
+            <http:operation location="averageOfTwo"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="reverse">
+            <http:operation location="reverse"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="ServUtils">
+        <wsdl:port name="ServUtilsHttpSoap11Endpoint" binding="ns:ServUtilsSoap11Binding">
+            <soap:address location="http://localhost:8080/axis2/services/ServUtils"/>
+        </wsdl:port>
+        <wsdl:port name="ServUtilsHttpSoap12Endpoint" binding="ns:ServUtilsSoap12Binding">
+            <soap12:address location="http://localhost:8080/axis2/services/ServUtils"/>
+        </wsdl:port>
+        <wsdl:port name="ServUtilsHttpEndpoint" binding="ns:ServUtilsHttpBinding">
+            <http:address location="http://localhost:8080/axis2/services/ServUtils"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

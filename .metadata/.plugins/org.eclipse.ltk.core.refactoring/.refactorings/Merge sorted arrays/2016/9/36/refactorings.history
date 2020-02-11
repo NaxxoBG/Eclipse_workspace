@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mergeArrays&apos; to &apos;ArrayMerger&apos;&#x0D;&#x0A;- Original project: &apos;Merge sorted arrays&apos;&#x0D;&#x0A;- Original element: &apos;mergeArrays&apos;&#x0D;&#x0A;- Renamed element: &apos;ArrayMerger&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;mergeArrays&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{mergeArrays.java[mergeArrays" matchStrategy="1" name="ArrayMerger" qualified="false" references="true" similarDeclarations="false" stamp="1472931212320" textual="false" version="1.0"/>
+</session>

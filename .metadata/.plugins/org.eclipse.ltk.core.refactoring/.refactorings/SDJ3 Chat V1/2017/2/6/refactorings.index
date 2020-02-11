@@ -1,0 +1,12 @@
+1486408812202	Rename type 'Server'
+1486409427786	Rename type 'AddressServer'
+1486564143929	Delete element
+1486564226635	Rename package 'AddressServer'
+1486564240440	Rename package 'ClientChat'
+1486564248443	Rename package 'addressServer'
+1486580313592	Move compilation unit
+1486580316513	Move compilation unit
+1486636432737	Rename type 'ChatHandler'
+1486642005028	Delete element
+1486642010874	Delete element
+1486642770894	Delete element

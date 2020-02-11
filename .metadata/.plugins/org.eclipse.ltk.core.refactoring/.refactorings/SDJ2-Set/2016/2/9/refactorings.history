@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;Set&apos; to &apos;SDJ2-Collections/src&apos;&#x0D;&#x0A;- Original project: &apos;SDJ2-Set&apos;&#x0D;&#x0A;- Destination element: &apos;SDJ2-Collections/src&apos;&#x0D;&#x0A;- Original element: &apos;SDJ2-Set/src/Set&apos;" description="Copy package" destination="=SDJ2-Collections/src" element1="/src&lt;Set" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1456306640465" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="category_1464011807177"
+		name="Custom"
+		description="Container for custom components"
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="custom_1464011807177"
+		name="ButtonGroup"
+		description="Creates javax.swing.ButtonGroup component."
+		visible="true"
+		class="javax.swing.ButtonGroup"
+		category="category_1464011807177"/>
+	<addComponent
+		id="custom_1464011816193"
+		name="ButtonGroup"
+		description="Creates javax.swing.ButtonGroup component."
+		visible="true"
+		class="javax.swing.ButtonGroup"
+		category="category_1464011807177"/>
+</commands>

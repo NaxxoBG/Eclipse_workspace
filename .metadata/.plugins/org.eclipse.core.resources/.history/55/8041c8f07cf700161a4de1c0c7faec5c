@@ -1,0 +1,11 @@
+package tier_1;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+import tier_3.Account;
+
+public interface IRemoteAdministrator extends Remote
+{
+   public Account createAccountAdministrator(String name, int number, double amount) throws RemoteException;
+}

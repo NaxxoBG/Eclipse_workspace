@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;PseudoCode.java&apos; to &apos;Blinker.java&apos;&#x0D;&#x0A;- Original project: &apos;MeasurePeaks&apos;&#x0D;&#x0A;- Original element: &apos;PseudoCode.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Blinker.java&apos;" description="Rename compilation unit &apos;PseudoCode.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{PseudoCode.java" name="Blinker.java" references="false" stamp="1445982324737" version="1.0"/>
+</session>

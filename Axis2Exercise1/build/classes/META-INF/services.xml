@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.7.4  Built on : Oct 21, 2016 (10:47:34 BST) -->
+<serviceGroup>
+    <service name="ServUtils">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="naxxo.skeleton.ServUtilsMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">naxxo.skeleton.ServUtilsSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="averageOfThree" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://naxxo">
+            <actionMapping>urn:averageOfThree</actionMapping>
+            <outputActionMapping>urn:averageOfThreeResponse</outputActionMapping>
+        </operation>
+        <operation name="reverse" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://naxxo">
+            <actionMapping>urn:reverse</actionMapping>
+            <outputActionMapping>urn:reverseResponse</outputActionMapping>
+        </operation>
+        <operation name="averageOfTwo" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://naxxo">
+            <actionMapping>urn:averageOfTwo</actionMapping>
+            <outputActionMapping>urn:averageOfTwoResponse</outputActionMapping>
+        </operation>
+        <operation name="isLeapYear" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://naxxo">
+            <actionMapping>urn:isLeapYear</actionMapping>
+            <outputActionMapping>urn:isLeapYearResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>

@@ -1,0 +1,6 @@
+package tier_1;
+
+public interface IRemoteMarker extends IRemoteAdministrator, IRemoteClerk, IRemoteCustomer
+{
+
+}

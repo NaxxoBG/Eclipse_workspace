@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Maze Tone Play/Lejos Mandatory Assignment/src/InProgress.java&apos; to &apos;Main&apos;" description="Rename resource &apos;InProgress.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Lejos Mandatory Assignment/src/InProgress.java" name="Main" stamp="1448300977671" updateReferences="true"/>
+</session>

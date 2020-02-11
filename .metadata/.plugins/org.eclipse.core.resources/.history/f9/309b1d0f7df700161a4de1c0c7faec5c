@@ -1,0 +1,10 @@
+package tier_1;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface IRemoteClerk extends Remote
+{
+   public void insertMoneyClerk(int amount, int accNo) throws RemoteException;
+   public void withdrawMoneyClerk(int amount, int accNo) throws RemoteException;
+}

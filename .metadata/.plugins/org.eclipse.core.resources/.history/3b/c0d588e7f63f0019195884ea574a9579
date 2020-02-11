@@ -1,0 +1,68 @@
+package main;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import java.awt.GridLayout;
+import java.awt.GridBagLayout;
+import javax.swing.SpringLayout;
+import javax.swing.JInternalFrame;
+import javax.swing.JSeparator;
+import javax.swing.JTextPane;
+import javax.swing.JButton;
+
+public class MainWindow
+{
+
+   private JFrame frame;
+
+   /**
+    * Launch the application.
+    */
+   public static void main(String[] args) {
+      EventQueue.invokeLater(new Runnable() {
+         public void run() {
+            try {
+               MainWindow window = new MainWindow();
+               window.frame.setVisible(true);
+            }
+            catch (Exception e) {
+               e.printStackTrace();
+            }
+         }
+      });
+   }
+
+   /**
+    * Create the application.
+    */
+   public MainWindow() {
+      initialize();
+   }
+
+   /**
+    * Initialize the contents of the frame.
+    */
+   private void initialize() {
+      frame = new JFrame();
+      frame.setBounds(100, 100, 1000, 676);
+      frame.setTitle("Graphr");
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      SpringLayout springLayout = new SpringLayout();
+      frame.getContentPane().setLayout(springLayout);
+      
+      JTextPane textPane = new JTextPane();
+      springLayout.putConstraint(SpringLayout.NORTH, textPane, 0, SpringLayout.NORTH, frame.getContentPane());
+      springLayout.putConstraint(SpringLayout.WEST, textPane, -250, SpringLayout.EAST, frame.getContentPane());
+      springLayout.putConstraint(SpringLayout.SOUTH, textPane, 580, SpringLayout.NORTH, frame.getContentPane());
+      springLayout.putConstraint(SpringLayout.EAST, textPane, 0, SpringLayout.EAST, frame.getContentPane());
+      frame.getContentPane().add(textPane);
+      
+      JButton btnDraw = new JButton("Draw");
+      springLayout.putConstraint(SpringLayout.NORTH, btnDraw, 14, SpringLayout.SOUTH, textPane);
+      springLayout.putConstraint(SpringLayout.WEST, btnDraw, 85, SpringLayout.WEST, textPane);
+      springLayout.putConstraint(SpringLayout.SOUTH, btnDraw, -10, SpringLayout.SOUTH, frame.getContentPane());
+      springLayout.putConstraint(SpringLayout.EAST, btnDraw, -52, SpringLayout.EAST, frame.getContentPane());
+      frame.getContentPane().add(btnDraw);
+   }
+}

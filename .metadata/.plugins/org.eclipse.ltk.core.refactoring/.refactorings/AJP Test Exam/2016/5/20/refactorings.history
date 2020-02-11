@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Task2.SpecialLinear&apos; to &apos;SpecialSearch&apos;&#x0D;&#x0A;- Original project: &apos;AJP Test Exam&apos;&#x0D;&#x0A;- Original element: &apos;Task2.SpecialLinear&apos;&#x0D;&#x0A;- Renamed element: &apos;Task2.SpecialSearch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SpecialLinear&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Task2{SpecialLinear.java[SpecialLinear" matchStrategy="1" name="SpecialSearch" qualified="false" references="true" similarDeclarations="false" stamp="1462871279487" textual="false" version="1.0"/>
+</session>

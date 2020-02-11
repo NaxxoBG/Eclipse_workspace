@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;bankExample.BankDatabase.totalAccounts&apos; in &apos;bankExample.BankDatabase&apos;&#x0D;&#x0A;- Original project: &apos;AJP-ThreadsDBAccess&apos;&#x0D;&#x0A;- Original element: &apos;bankExample.BankDatabase.totalAccounts&apos;&#x0D;&#x0A;- Getter method name: &apos;getTotalAccounts&apos;&#x0D;&#x0A;- Setter method name: &apos;setTotalAccounts&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;totalAccounts&apos;" flags="589830" getter="getTotalAccounts" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;bankExample{BankDatabase.java[BankDatabase^totalAccounts" insertion="7" setter="setTotalAccounts" stamp="1462263547574" version="1.0" visibility="1"/>
+</session>

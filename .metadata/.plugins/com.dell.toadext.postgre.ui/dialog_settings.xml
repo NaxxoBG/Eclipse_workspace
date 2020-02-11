@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="PgEditColumnDataTypeDialog.DependencyDialog">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="0" key="GroupDialog.y"/>
+		<item value="600" key="GroupDialog.x"/>
+		<item value="600" key="GroupDialog.width"/>
+		<item value="434" key="DIALOG_HEIGHT"/>
+		<item value="434" key="GroupDialog.height"/>
+		<item value="600" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgDomainViewer">
+	</section>
+	<section name="AbstractEditDefaultValueDialog">
+		<item value="576" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="224" key="GroupDialog.y"/>
+		<item value="681" key="GroupDialog.x"/>
+		<item value="576" key="GroupDialog.width"/>
+		<item value="600" key="DIALOG_HEIGHT"/>
+		<item value="600" key="GroupDialog.height"/>
+		<item value="681" key="DIALOG_X_ORIGIN"/>
+		<item value="224" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgViewViewer">
+	</section>
+	<section name="EditCommentDialog">
+		<item value="776" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="342" key="GroupDialog.y"/>
+		<item value="514" key="GroupDialog.x"/>
+		<item value="776" key="GroupDialog.width"/>
+		<item value="360" key="DIALOG_HEIGHT"/>
+		<item value="360" key="GroupDialog.height"/>
+		<item value="514" key="DIALOG_X_ORIGIN"/>
+		<item value="342" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="PgEditColumnDataTypeDialog.PgSqlPreview">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="337" key="GroupDialog.y"/>
+		<item value="-196" key="GroupDialog.x"/>
+		<item value="600" key="GroupDialog.width"/>
+		<item value="340" key="DIALOG_HEIGHT"/>
+		<item value="340" key="GroupDialog.height"/>
+		<item value="-196" key="DIALOG_X_ORIGIN"/>
+		<item value="337" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgTableViewer">
+	</section>
+	<section name="EditCommentDialog.DependencyDialog">
+		<item value="639" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="0" key="GroupDialog.y"/>
+		<item value="776" key="GroupDialog.x"/>
+		<item value="639" key="GroupDialog.width"/>
+		<item value="400" key="DIALOG_HEIGHT"/>
+		<item value="400" key="GroupDialog.height"/>
+		<item value="776" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="EditCommentDialog.CodePreviewDialog">
+		<item value="776" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="360" key="GroupDialog.y"/>
+		<item value="0" key="GroupDialog.x"/>
+		<item value="776" key="GroupDialog.width"/>
+		<item value="340" key="DIALOG_HEIGHT"/>
+		<item value="340" key="GroupDialog.height"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="360" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgScriptViewer">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="PgEditColumnDataTypeDialog">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="224" key="GroupDialog.y"/>
+		<item value="669" key="GroupDialog.x"/>
+		<item value="600" key="GroupDialog.width"/>
+		<item value="600" key="DIALOG_HEIGHT"/>
+		<item value="600" key="GroupDialog.height"/>
+		<item value="669" key="DIALOG_X_ORIGIN"/>
+		<item value="224" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgSequenceViewer">
+	</section>
+</section>

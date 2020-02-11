@@ -1,0 +1,15 @@
+<com.dell.toadext.mongodb.core.service.impl.DriversList serialization="custom">
+  <unserializable-parents/>
+  <list>
+    <default>
+      <size>1</size>
+    </default>
+    <int>1</int>
+    <string>mongo-java-driver-2.11.4.jar</string>
+  </list>
+  <com.dell.toadext.mongodb.core.service.impl.DriversList>
+    <default>
+      <version>1</version>
+    </default>
+  </com.dell.toadext.mongodb.core.service.impl.DriversList>
+</com.dell.toadext.mongodb.core.service.impl.DriversList>

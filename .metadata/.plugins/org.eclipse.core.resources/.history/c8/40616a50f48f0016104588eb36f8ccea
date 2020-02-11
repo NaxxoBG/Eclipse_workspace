@@ -1,0 +1,38 @@
+package ADS.src.BinarySearchTree;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+
+	BinaryTree tree = new BinaryTree();
+	Node node1 = new Node(13, "George");
+	tree.addNode(node1);
+	
+	Node node2 = new Node(26, "Emil");
+   tree.addNode(node2);
+	
+   Node node3 = new Node(43,"Stefan");
+	tree.addNode(node3);
+	
+	
+	Node node4 = new Node(56,"Naxxo");
+   tree.addNode(node4);
+	
+   Node node5 = new Node(84,"Jichkadjiqta");
+	tree.addNode(node5);
+	
+	Node node6 = new Node(44, "Lekiq");
+	tree.addNode(node6);
+	
+	tree.postOrderTraverse(tree.root);
+	
+	System.out.println("\nNode with key 43");
+
+	System.out.println(tree.findNode(43));
+		
+		
+	}
+
+}

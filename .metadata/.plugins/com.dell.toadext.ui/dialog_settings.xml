@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.dell.toadext.ui.wizards.data.SqlConverterProperty">
+	</section>
+	<section name="com.dell.toadext.view.connection.actions.LinkWithEditorAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgTriggersViewer">
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgDboDataViewer">
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#&quot;Company Assignment&quot;.project">
+			<item value=",,,,," key="col.widths"/>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#&quot;Bank_System&quot;.bank_acc">
+			<item value=",,,," key="col.widths"/>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#&quot;Company Assignment&quot;.employee">
+			<item value=",,,,,,,,,,," key="col.widths"/>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#bettingsystem.ticketinfo">
+			<item value=",,,,,," key="col.widths"/>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#&quot;Bank_System&quot;.&quot;BANK_ACC&quot;">
+			<item value=",,," key="col.widths"/>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#&quot;Bank&quot;.account">
+			<item value=",,,," key="col.widths"/>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#&quot;Students&quot;.course">
+			<item value=",,,,," key="col.widths"/>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#&quot;Students&quot;.grade_report">
+			<item value=",,,," key="col.widths"/>
+		</section>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.LockAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowDataAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.view.monitor.AbstractConnectionMonitorView$LockAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="aliases_section">
+		<list key="aliases">
+		</list>
+		<list key="queryables">
+		</list>
+	</section>
+	<section name="com.dell.toadext.ui.pages.ToadextOutlinePage$OutlineSortAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.view.connection.view.handlers.GroupByDbHandler">
+	</section>
+	<section name="com.dell.toadext.detailbrowser.AbstractColumnsViewer$ShowCommentAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowErrorsAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowInputAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.ui.console.DbConsoleView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.ui.quickdoc.QuickDocView$LinkWithSelectionAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.view.history.actions.HideUnpinnedHistoryItemsAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.view.monitor.DbmsOutputView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.schemabrowser.actions.DisplayDescribeObjectEditorAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.schemabrowser.actions.LinkWithEditorAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgIndexesViewer">
+	</section>
+	<section name="com.dell.toadext.view.monitor.SqlMonitorView">
+		<section name="saveToFile">
+		</section>
+	</section>
+	<section name="com.dell.toadext.view.monitor.AbstractConnectionMonitorView$EnableAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.detailbrowser.viewer.AbstractQueryResultViewer$SortColumnsAction">
+		<item value="false" key="active"/>
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgConstraintsViewer">
+	</section>
+	<section name="com.dell.toadext.postgre.detailviewer.PgTableColumnsViewer">
+	</section>
+	<section name="com.dell.toadext.ui.console.actions.ShowStandardLogsAction">
+		<item value="true" key="active"/>
+	</section>
+	<section name="com.dell.toadext.detailbrowser.AbstractColumnsViewer$SortColumnsAction">
+		<item value="false" key="active"/>
+	</section>
+</section>

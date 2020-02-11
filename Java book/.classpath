@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Naxxo/Downloads/Eclipse/External java libraries/commons-lang3-3.4/commons-lang3-3.4.jar" sourcepath="C:/Users/Naxxo/Downloads/Eclipse/External java libraries/commons-lang3-3.4/commons-lang3-3.4-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Naxxo/Downloads/Eclipse/External%20java%20libraries/commons-lang3-3.4/commons-lang3-3.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Naxxo/Downloads/Eclipse/External java libraries/commons-collections4-4.1/commons-collections4-4.1.jar" sourcepath="C:/Users/Naxxo/Downloads/Eclipse/External java libraries/commons-collections4-4.1/commons-collections4-4.1-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Naxxo/Downloads/Eclipse/External%20java%20libraries/commons-collections4-4.1/commons-collections4-4.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Naxxo/Downloads/Eclipse/External java libraries/commons-primitives-1.0/commons-primitives-1.0.jar" sourcepath="C:/Users/Naxxo/Downloads/Eclipse/External java libraries/commons-primitives-1.0/commons-primitives-1.0-src.zip"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,10 @@
+package HitBalancedTree;
+
+public class HBTMain
+{
+   public static void main(String[] args) {
+      HitBalancedTree tree = new HitBalancedTree();
+      System.out.println(tree.getRoot());
+      System.out.println(tree.getRoot().getKey());
+   }
+}

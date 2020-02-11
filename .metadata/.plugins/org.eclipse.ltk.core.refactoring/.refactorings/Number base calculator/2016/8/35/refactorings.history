@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;View&apos; to &apos;CalcView&apos;&#x0D;&#x0A;- Original project: &apos;Number base calculator&apos;&#x0D;&#x0A;- Original element: &apos;View&apos;&#x0D;&#x0A;- Renamed element: &apos;CalcView&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;View&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{View.java[View" matchStrategy="1" name="CalcView" qualified="false" references="true" similarDeclarations="false" stamp="1472226169760" textual="false" version="1.0"/>
+</session>

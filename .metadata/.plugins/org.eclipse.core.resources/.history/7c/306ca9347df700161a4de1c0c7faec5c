@@ -1,0 +1,11 @@
+package tier_1;
+
+import java.rmi.RemoteException;
+import java.sql.SQLException;
+
+import tier_3.Account;
+
+public interface IRemoteMarker extends Remote
+{
+   public Account getAccount(int accNumber) throws RemoteException, SQLException;
+}

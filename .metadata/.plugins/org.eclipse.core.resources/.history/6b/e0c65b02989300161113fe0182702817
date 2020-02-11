@@ -1,0 +1,56 @@
+package HitBalancedTree;
+
+public class Node
+{
+   private Node left;
+   private Node right;
+   private int key;
+   private int hitCount;
+
+   public Node(int key) {
+      this.key = key;
+      this.hitCount = 0;
+   }
+
+   public Node getLeft() {
+      return left;
+   }
+
+   public Node getRight() {
+      return right;
+   }
+
+   public int getKey() {
+      return key;
+     
+   }
+
+   public int getHitCount() {
+      return hitCount;
+   }
+
+   public void setLeft(Node left) {
+      this.left = left;
+   }
+
+   public void setRight(Node right) {
+      this.right = right;
+   }
+
+   public void setKey(int key) {
+      this.key = key;
+   }
+
+   public void setHitCount(int hitCount) {
+      this.hitCount = hitCount;
+   }
+
+   public void incHitCount() {
+      setHitCount(++hitCount);
+   }
+
+   public String toString() {
+      return "[Node key: " + key + ", left:" + left + ", right:" + right
+            + ", hitCount:" + hitCount + "]";
+   }
+}

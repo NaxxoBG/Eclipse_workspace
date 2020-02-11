@@ -1,0 +1,5 @@
+1487512008148	Rename type 'Client'
+1487512015915	Rename type 'IRemoteClient'
+1487513133632	Encapsulate field 'clients'
+1487613872295	Move compilation unit
+1487784687955	Delete element

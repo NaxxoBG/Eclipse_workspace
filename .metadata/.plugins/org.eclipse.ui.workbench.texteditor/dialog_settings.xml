@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="171" key="DIALOG_X_ORIGIN"/>
+		<item value="357" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="Listener" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="listener"/>
+			<item value="package dateandtime;"/>
+			<item value="/*public static &lt;A&gt; List&lt;A&gt; takeWhile(List&lt;A&gt; list, Predicate&lt;A&gt; p) {"/>
+			<item value="public static &lt;A&gt; List&lt;A&gt; takeWhile(List&lt;A&gt; list, Predicate&lt;A&gt; p) {"/>
+			<item value="int a = in.nextInt();"/>
+			<item value="unchecked"/>
+			<item value="reduce"/>
+			<item value="reverse"/>
+		</list>
+		<list key="replacehistory">
+			<item value="print"/>
+			<item value="accno"/>
+			<item value=""/>
+			<item value="bank_acc"/>
+			<item value="amount"/>
+			<item value="accNo"/>
+			<item value="&apos;"/>
+			<item value="username"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="305" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="444" key="DIALOG_HEIGHT"/>
+		<item value="1288" key="DIALOG_X_ORIGIN"/>
+		<item value="543" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

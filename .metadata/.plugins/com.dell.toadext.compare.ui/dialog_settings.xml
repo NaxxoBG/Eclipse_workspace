@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="compareSettings">
+		<item value="true" key="ignorePartitions"/>
+		<item value="true" key="ignorePhysicalAttributes"/>
+		<item value="true" key="ignoreColumnOrder"/>
+		<item value="100" key="diffEditCost"/>
+		<item value="true" key="ignoreStorageClause"/>
+		<item value="true" key="comparePlsqlSource"/>
+		<item value="true" key="ignoreSystemObjects"/>
+		<item value="true" key="ignoreFormatting"/>
+		<item value="true" key="ignoreContainer"/>
+		<item value="true" key="compareSqlSource"/>
+		<item value="true" key="ignoreWhitespace"/>
+	</section>
+	<section name="com.dell.toadext.compare.ui.ObjectDifference">
+	</section>
+</section>

@@ -1,0 +1,107 @@
+package HitBalancedTree;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class HBTTest
+{ 
+   private HitBalancedTree tester;
+   
+   private HitBalancedTree initTree() {
+      tester = new HitBalancedTree();
+      tester.add(45);
+      tester.add(10);
+      tester.add(12);
+      tester.add(6);
+      return tester;
+   }
+
+   @Test
+   public void incCount() throws Exception {
+      Node node = new Node(45);
+      node.incHitCount();
+      node.incHitCount();
+      node.incHitCount();
+      assertEquals(node.getHitCount(), 3);
+   }
+
+   @Test
+   public void addTest() throws Exception {
+      Node node = new Node(23);
+      HitBalancedTree tree = new HitBalancedTree(node);
+
+      System.out.println(tree.size());
+
+      tree.add(1);
+      tree.add(15);
+      tree.add(352);
+      tree.add(4);
+
+      System.out.println(tree.size());
+
+      tree.add(435);
+      System.out.println(tree.size());
+      assertEquals(6, tree.size());
+   }
+
+   @Test
+   public void findTest() throws Exception {
+      tester = this.initTree();
+
+      Node node = tester.find(6);
+
+      assertEquals(tester.find(34), null);
+
+      assertEquals(6, node.getKey());
+   }
+
+   @Test
+   public void printNode() throws Exception {
+      tester = this.initTree();
+      System.out.println(tester.find(10));
+   }
+
+   @Test
+   public void testContains() throws Exception {
+      HitBalancedTree tree = this.initTree();
+      assertEquals(tree.contains(6), true);
+      assertEquals(tree.contains(100), false);
+   }
+
+   @Test
+   public void printInOrderTree() throws Exception {
+      tester = this.initTree();
+      tester.add(50);
+      tester.printInOrder();
+   }
+    
+   @Test
+   public void printPreOrderTest() throws Exception {
+      tester = this.initTree();
+      System.out.println(tester.getRoot());
+      System.out.println(tester.getRoot().getLeft());
+      System.out.println(tester.getRoot().getLeft().getLeft());
+      System.out.println(tester.getRoot().getLeft().getRight());
+      tester.add(50);
+      System.out.println(tester.getRoot().getRight());
+      System.out.println();
+      tester.printPreOrder();
+   }
+   
+   @Test
+   public void printTree() throws Exception {
+      tester = this.initTree();
+      tester.print();
+   }
+   
+   @Test
+   public void removeTest() throws Exception {
+      tester = this.initTree();
+      tester.add(50);
+      tester.printPreOrder();
+      System.out.println();
+      System.out.println(tester.size());
+      tester.remove(45);
+      tester.printPreOrder();
+   }
+}

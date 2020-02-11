@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.dell.toadext.postgre.detailviewer.PgQueryResultViewer">
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#bank_acc">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#account">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#course">
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#employee">
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#BANK_ACC">
+			<item value="" key="where"/>
+			<list key="whereHistory">
+			</list>
+			<list key="hidden">
+			</list>
+			<list key="order">
+			</list>
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#grade_report">
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#project">
+		</section>
+		<section name="268abd39-b34d-4750-a923-3ab9cce92ad2#ticketinfo">
+		</section>
+	</section>
+</section>

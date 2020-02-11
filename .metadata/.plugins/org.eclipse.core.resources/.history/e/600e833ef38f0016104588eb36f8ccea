@@ -1,0 +1,25 @@
+package ADS.src.BinarySearchTree;
+
+public class Node
+{
+	Node leftchild;
+	Node rightchild;
+	int key;
+	String names;
+	int hit;
+
+	public Node(int key, String names)
+	{
+
+		this.key = key;
+		this.hit = 0;
+	}
+
+	@Override
+	public String toString()
+	{
+		return "Node [leftchild=" + leftchild + ", rightchild=" + rightchild + ", key=" + key + ", names=" + names
+				+ ", hit=" + hit + "]";
+	}
+
+}

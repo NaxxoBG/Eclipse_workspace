@@ -1,0 +1,100 @@
+package ADS.src.BinarySearchTree;
+
+public class BinaryTree
+{
+
+	Node root;
+
+	public void addNode(int key,String names)
+	{
+
+		Node newNode = new Node(key,names);
+		if (root == null)
+		{
+			root = newNode;
+		} else
+		{
+			Node focusNode = root;
+			Node parent;
+			while (true)
+			{
+				parent = focusNode;
+				if (key < focusNode.key)
+				{
+					focusNode = focusNode.leftchild;
+					if (focusNode == null)
+					{
+						parent.leftchild = newNode;
+						return;
+					}
+				} else
+				{
+					focusNode = focusNode.rightchild;
+
+					if (focusNode == null)
+					{
+						parent.rightchild = newNode;
+						return;
+					}
+				}
+			}
+		}
+	}
+
+	public Node findNode(int key)
+	{
+		Node focusNode = root;
+		while (focusNode.key != key)
+		{
+			if (key < focusNode.key)
+			{
+				focusNode = focusNode.leftchild;
+			} else
+			{
+				focusNode = focusNode.rightchild;
+			}
+			if (focusNode == null)
+			{
+				return null;
+			}
+		}
+		root.hit++;
+		return focusNode;
+
+	}
+
+	public void preOrderTraverse(Node focusNode)
+	{
+		if (focusNode != null)
+		{
+			System.out.println(focusNode);
+
+			preOrderTraverse(focusNode.leftchild);
+			preOrderTraverse(focusNode.rightchild);
+			root.hit++;
+		}
+	}
+
+	public void inOrderTraverse(Node focusNode)
+	{
+		if (focusNode != null)
+		{
+			inOrderTraverse(focusNode.leftchild);
+			System.out.println(focusNode);
+			inOrderTraverse(focusNode.rightchild);
+			root.hit++;
+		}
+	}
+
+	public void postOrderTraverse(Node focusNode)
+	{
+		if (focusNode != null)
+		{
+			postOrderTraverse(focusNode.leftchild);
+			postOrderTraverse(focusNode.rightchild);
+			System.out.println(focusNode);
+			root.hit++;
+		}
+	}
+
+}
